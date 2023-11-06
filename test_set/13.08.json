@@ -1,0 +1,2642 @@
+{
+    "audio_file": {
+        "file_name": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720.wav",
+        "json_file": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720.json"
+    },
+    "type": {
+        "name": "MULTI_SPEAKER_LONG_FORM_TRANSCRIPTION",
+        "version": "2.0"
+    },
+    "value": {
+        "primaryLanguage": "en_US",
+        "primaryVariety": "N/A",
+        "otherLanguages": "N/A",
+        "domains": [
+            "Call Center"
+        ],
+        "topics": [
+            "Travel"
+        ],
+        "contentDurations": {
+            "Speech": 726.13,
+            "Noise": 8.63,
+            "PII": 3.15,
+            "Audio": 788.18
+        },
+        "segments": [
+            {
+                "start": 0.41,
+                "end": 0.98,
+                "segmentId": "1",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Martin!"
+                }
+            },
+            {
+                "start": 0.98,
+                "end": 2.8,
+                "segmentId": "2",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 2.8,
+                "end": 7.64,
+                "segmentId": "3",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hi, #[overlap_start] this is #[overlap_end] from #[keyboard-noise] reservations department. Yes, hello! Can you hear me?"
+                }
+            },
+            {
+                "start": 3.2,
+                "end": 3.72,
+                "segmentId": "4",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Hello? #[overlap_end]"
+                }
+            },
+            {
+                "start": 8.63,
+                "end": 10.03,
+                "segmentId": "5",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I'm here. Yes, I hear you."
+                }
+            },
+            {
+                "start": 11.07,
+                "end": 11.38,
+                "segmentId": "6",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hi, this"
+                }
+            },
+            {
+                "start": 11.38,
+                "end": 14.53,
+                "segmentId": "7",
+                "primaryType": "PII",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[pii-work]"
+                }
+            },
+            {
+                "start": 15.24,
+                "end": 17.24,
+                "segmentId": "8",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] I'm calling #[overlap_end] regarding the reservation"
+                }
+            },
+            {
+                "start": 15.54,
+                "end": 15.93,
+                "segmentId": "9",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Hi #[overlap_end]"
+                }
+            },
+            {
+                "start": 17.24,
+                "end": 21.37,
+                "segmentId": "10",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "two one #[overlap_start] nine six three nine (()) may I'm speaking to Christian, right? #[overlap_end]"
+                }
+            },
+            {
+                "start": 17.68,
+                "end": 26.55,
+                "segmentId": "11",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Wait, wait, wait. Yeah, yeah, hold hold hold on one #[overlap_end] #[keyboard-noise] hold on one second before (()). Hi, #[noise] okay. #Er yeah, I'm sorry, go ahead."
+                }
+            },
+            {
+                "start": 26.55,
+                "end": 27.85,
+                "segmentId": "12",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 27.85,
+                "end": 33.65,
+                "segmentId": "13",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No problem. Before we proceed, I just want to inform you that the call is being recorded for quality assurance and training purposes."
+                }
+            },
+            {
+                "start": 33.65,
+                "end": 34.93,
+                "segmentId": "14",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure, #[breath] okay."
+                }
+            },
+            {
+                "start": 35.6,
+                "end": 43.15,
+                "segmentId": "15",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I understand #um Martin, that you are looking for assistance with confirming a reservation?"
+                }
+            },
+            {
+                "start": 44.28,
+                "end": 57.41,
+                "segmentId": "16",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No, we're no, we're not, we're not looking for that anymore, because I made very clear that when we receive that, we realized that we got to, we got to the reservation is almost over two hou~ more than two hours ago."
+                }
+            },
+            {
+                "start": 58.21,
+                "end": 62.04,
+                "segmentId": "17",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And I got there and they said that we, they didn't have the reservation in my name,"
+                }
+            },
+            {
+                "start": 62.62,
+                "end": 73.71000000000001,
+                "segmentId": "18",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "and I said, well, we were supposed to get there last night and they didn't have it last night and he said, this isn't the right reservation number for (()) and maybe they made the reservation somewhere else."
+                }
+            },
+            {
+                "start": 74.48,
+                "end": 79.13,
+                "segmentId": "19",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And I said, well, no, they shouldn't have because clearly, I made a reservation to (())."
+                }
+            },
+            {
+                "start": 79.77,
+                "end": 84.71000000000001,
+                "segmentId": "20",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And so, did she contacted you guys? And she was on chat with somebody,"
+                }
+            },
+            {
+                "start": 85.03,
+                "end": 96.56,
+                "segmentId": "21",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(()) with somebody. But when I when I called the number, I called your number, I kept getting directed to a number that would say, put the right PIN code in and when I did it hung up on me."
+                }
+            },
+            {
+                "start": 96.56,
+                "end": 102.63,
+                "segmentId": "22",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And that happened to her and happened to be three times in a row. So I was never able to get from the person to talk to you."
+                }
+            },
+            {
+                "start": 103.14,
+                "end": 108.46000000000001,
+                "segmentId": "23",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And so what I did was, I just said the heck with this and I and I just rented the car from (()) directly."
+                }
+            },
+            {
+                "start": 109.08,
+                "end": 112.78,
+                "segmentId": "24",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So that's ((so)), I wanna I wanna I would like to get a refund because"
+                }
+            },
+            {
+                "start": 113.5,
+                "end": 125.21,
+                "segmentId": "25",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "it was it was it was handled #[keyboard-noise] improperly by you guys. And the most important, the most upsetting is I'm supposed to be selling and promoting your services. I'm not I'm not just a customer."
+                }
+            },
+            {
+                "start": 125.57,
+                "end": 127.42,
+                "segmentId": "26",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I'm an I'm a distributor, I'm an consultant."
+                }
+            },
+            {
+                "start": 127.99,
+                "end": 140.46,
+                "segmentId": "27",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So the fact that, I'm having now. #[noise] I've had multiple good experiences with you guys lately not that I would quit, but, but if I had one of my customers go through the experience I just went through,"
+                }
+            },
+            {
+                "start": 140.97,
+                "end": 144.43,
+                "segmentId": "28",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "it would be, it would be worse than embarrassing, it will be humiliating."
+                }
+            },
+            {
+                "start": 144.6,
+                "end": 152.93,
+                "segmentId": "29",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So, so for me, if it was to happen to me, I can live with it with eighty-six dollars. But but the idea that somebody would come to a rental counter,"
+                }
+            },
+            {
+                "start": 153.24,
+                "end": 159.32999999999998,
+                "segmentId": "30",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "expect to have their car have it all there, then realize that you that you didn't even have the right reservation number,"
+                }
+            },
+            {
+                "start": 159.8,
+                "end": 167.16,
+                "segmentId": "31",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "the~ the~ (()) then you have, and then, and then, and then the fact that I couldn't even get to the customer service person, and that that's just totally wrong."
+                }
+            },
+            {
+                "start": 167.44,
+                "end": 172.62,
+                "segmentId": "32",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, and I understand. I really apologize for the inconveniences here that caused #[breath] to you."
+                }
+            },
+            {
+                "start": 172.62,
+                "end": 178.78,
+                "segmentId": "33",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#Um Martin, just one quick question, you went to pick up your vehicle today and not yesterday?"
+                }
+            },
+            {
+                "start": 179.79,
+                "end": 189.35,
+                "segmentId": "34",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "We did because we, ou~ our flight was canceled last night. So we got we got to review we got our connecting flight in #[phatic] Detroit and a flight it was because of weather delays."
+                }
+            },
+            {
+                "start": 189.93,
+                "end": 195.58,
+                "segmentId": "35",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "The plane got there one thirty in the morning. And #[phatic] the pilot couldn't fly anymore, so they went to get us into the crew but they couldn't."
+                }
+            },
+            {
+                "start": 196.16,
+                "end": 204.48,
+                "segmentId": "36",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So they, they couldn't get a crew until six thirty this morning, so they put us up in a hotel we left at six thirty until we got it we got here to Las Vegas is at nine."
+                }
+            },
+            {
+                "start": 204.89,
+                "end": 208.77,
+                "segmentId": "37",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] #[breath] And #[overlap_end] did you call the car rental company to inform them of this?"
+                }
+            },
+            {
+                "start": 204.89,
+                "end": 206.41,
+                "segmentId": "38",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] But but the (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 209.45,
+                "end": 212.98,
+                "segmentId": "39",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "But at your reservation, #[overlap_start] it's not #[overlap_end] marked as no show. #[noise]"
+                }
+            },
+            {
+                "start": 210.4,
+                "end": 211.14,
+                "segmentId": "40",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] We call. #[overlap_end]"
+                }
+            },
+            {
+                "start": 214.32,
+                "end": 217.88,
+                "segmentId": "41",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It wasn't marked as no show, It wasn't marked, there was no a reservation in there at all."
+                }
+            },
+            {
+                "start": 218.26,
+                "end": 230.66,
+                "segmentId": "42",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No, I mean, if you've got there possibly it was marked as no show and they don't have the reservation on file. That's why I'm asking, did you call them to inform? Okay, you know, I'm gonna be able to pick it up until today because you know, our flight got delayed,"
+                }
+            },
+            {
+                "start": 230.66,
+                "end": 234.87,
+                "segmentId": "43",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[noise] so that they don't mark it as no show and your reservation is not canceled."
+                }
+            },
+            {
+                "start": 235.71,
+                "end": 236.27,
+                "segmentId": "44",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I did."
+                }
+            },
+            {
+                "start": 236.64,
+                "end": 237.77,
+                "segmentId": "45",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Who did you speak to?"
+                }
+            },
+            {
+                "start": 238.44,
+                "end": 244.47,
+                "segmentId": "46",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I don't know who I spoke to. I didn't get a name. We were, you have to understand, we were in Detroit, #[keyboard-noise] Michigan."
+                }
+            },
+            {
+                "start": 244.47,
+                "end": 252.82,
+                "segmentId": "47",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "We were in an airport, we were waiting we were waiting to find that, we didn't find out until we weren't going to make it till one thirty in the morning. So it was already"
+                }
+            },
+            {
+                "start": 253.22,
+                "end": 266.03,
+                "segmentId": "48",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "it was already almost tomorrow there. It's almost, it was almost midnight, here in Las Vegas by the time that happen. So, there was no, there was just a call to tell them we weren't coming. I didn't ask who I was talking to, I didn't think it mattered."
+                }
+            },
+            {
+                "start": 266.6,
+                "end": 268.9,
+                "segmentId": "49",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And did they tell you that everything was okay?"
+                }
+            },
+            {
+                "start": 269.46,
+                "end": 270.87,
+                "segmentId": "50",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "They did~ they didn't even"
+                }
+            },
+            {
+                "start": 271.61,
+                "end": 277.19,
+                "segmentId": "51",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I didn't (()) they asked me for reservation number, I told him the reservation number and they said, great, we'll put that on the record."
+                }
+            },
+            {
+                "start": 278.02,
+                "end": 281.67,
+                "segmentId": "52",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "You gave them our reservation number and not the one on the confirmation letter?"
+                }
+            },
+            {
+                "start": 282.26,
+                "end": 284.63,
+                "segmentId": "53",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "The only, there was only one reservation number."
+                }
+            },
+            {
+                "start": 284.94,
+                "end": 291.14,
+                "segmentId": "54",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Nine three two whatever was six three seven. Whate~ ((you know)) I only had one number on the on the letter on the #[noise] confirmation letter."
+                }
+            },
+            {
+                "start": 291.58,
+                "end": 298.2,
+                "segmentId": "55",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "On the confirmation letter, there's a vendor reference number that's the number that you use to provide it to the rental company"
+                }
+            },
+            {
+                "start": 298.65,
+                "end": 304.71,
+                "segmentId": "56",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "which is seven five one four nine two five two two, that's how they normally locate your reservation."
+                }
+            },
+            {
+                "start": 305.16,
+                "end": 311.69,
+                "segmentId": "57",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "The #[overlap_start] reason I'm asking all of this, Martin is in order to properly look into the. Sir the reason #[overlap_end]"
+                }
+            },
+            {
+                "start": 305.16,
+                "end": 312.77,
+                "segmentId": "58",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Yeah, but that's not (()). Wait, wait, wait, wait. (()) hold it, hold on. There there is (()) #[overlap_end] they cut this."
+                }
+            },
+            {
+                "start": 312.9,
+                "end": 324.1,
+                "segmentId": "59",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "The~ their vendor number is not, starts with starts with the letter H, or the letter H. That number you gave that you gave me, he told me that that is not there that they don't have any such number."
+                }
+            },
+            {
+                "start": 324.6,
+                "end": 338.69,
+                "segmentId": "60",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[breath] Yeah the reason I'm asking all this is because what happens is that in order for us to go ahead and request a refund, we need to have all the possibilities that were taken, you know, #[breath] everything so that we can know whether the car rental company will approve a refund or not."
+                }
+            },
+            {
+                "start": 338.83,
+                "end": 342.55,
+                "segmentId": "61",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#Um what I'm going to go ahead and do is I'm going to go ahead and submit the request."
+                }
+            },
+            {
+                "start": 342.55,
+                "end": 347.05,
+                "segmentId": "62",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Do you have the receipt #[lipsmack] for the new reservation that you booked?"
+                }
+            },
+            {
+                "start": 347.08,
+                "end": 347.56,
+                "segmentId": "63",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes."
+                }
+            },
+            {
+                "start": 347.74,
+                "end": 351.0,
+                "segmentId": "64",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Can you send it over to me, please? I'm gonna give you an email."
+                }
+            },
+            {
+                "start": 351.56,
+                "end": 351.96,
+                "segmentId": "65",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes."
+                }
+            },
+            {
+                "start": 352.83,
+                "end": 355.24,
+                "segmentId": "66",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay. #[breath] Send it to a reservations"
+                }
+            },
+            {
+                "start": 356.22,
+                "end": 358.81,
+                "segmentId": "67",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hol~ hold on, hold on. #[noise] I have to wri~ do I need to write this down?"
+                }
+            },
+            {
+                "start": 359.31,
+                "end": 362.28,
+                "segmentId": "68",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, Sir, because you need to send the receipt to that email."
+                }
+            },
+            {
+                "start": 362.85,
+                "end": 364.49,
+                "segmentId": "69",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, hold on, let me a pen."
+                }
+            },
+            {
+                "start": 365.14,
+                "end": 365.79,
+                "segmentId": "70",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure."
+                }
+            },
+            {
+                "start": 366.49,
+                "end": 367.62,
+                "segmentId": "71",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, go ahead (())."
+                }
+            },
+            {
+                "start": 368.25,
+                "end": 370.4,
+                "segmentId": "72",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Reservations plural."
+                }
+            },
+            {
+                "start": 371.35,
+                "end": 373.64,
+                "segmentId": "73",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Reservations plural. Okay."
+                }
+            },
+            {
+                "start": 373.64,
+                "end": 374.74,
+                "segmentId": "74",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "at"
+                }
+            },
+            {
+                "start": 375.42,
+                "end": 375.95,
+                "segmentId": "75",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes."
+                }
+            },
+            {
+                "start": 376.21,
+                "end": 377.7,
+                "segmentId": "76",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "vacation owners"
+                }
+            },
+            {
+                "start": 378.1,
+                "end": 378.98,
+                "segmentId": "77",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[noise] Yes."
+                }
+            },
+            {
+                "start": 378.98,
+                "end": 380.98,
+                "segmentId": "78",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "dot #[noise] net."
+                }
+            },
+            {
+                "start": 381.5,
+                "end": 382.15,
+                "segmentId": "79",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Dot net."
+                }
+            },
+            {
+                "start": 382.64,
+                "end": 383.02,
+                "segmentId": "80",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 383.69,
+                "end": 389.13,
+                "segmentId": "81",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And then you can go ahead and send it over to me, please let me know. Can you send it right now?"
+                }
+            },
+            {
+                "start": 389.61,
+                "end": 396.72,
+                "segmentId": "82",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#Ah I also have here I left the agreement in the car, which really isn't the brightest thing in the world either. But hold on, let me finish my (())."
+                }
+            },
+            {
+                "start": 397.28,
+                "end": 398.79,
+                "segmentId": "83",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I #[phatic] know I left it in the car."
+                }
+            },
+            {
+                "start": 398.79,
+                "end": 401.18,
+                "segmentId": "84",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 401.18,
+                "end": 401.92,
+                "segmentId": "85",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh here it is, hold on."
+                }
+            },
+            {
+                "start": 402.73,
+                "end": 403.28,
+                "segmentId": "86",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure."
+                }
+            },
+            {
+                "start": 404.24,
+                "end": 408.57,
+                "segmentId": "87",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah no, I left I left it in the car (()) get it. Well hold on, hold on, hold on."
+                }
+            },
+            {
+                "start": 409.32,
+                "end": 410.12,
+                "segmentId": "88",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure, no problem."
+                }
+            },
+            {
+                "start": 410.7,
+                "end": 417.04,
+                "segmentId": "89",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yep, I did I left, I left it in the car. So #um I'll go down and get it only takes a few minutes. Wait can I get your name?"
+                }
+            },
+            {
+                "start": 418.02,
+                "end": 418.8,
+                "segmentId": "90",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It's Blanca."
+                }
+            },
+            {
+                "start": 419.37,
+                "end": 420.09,
+                "segmentId": "91",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Blanca. Okay."
+                }
+            },
+            {
+                "start": 420.34,
+                "end": 426.99,
+                "segmentId": "92",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm. #[lipsmack] So let me just go ahead and place you in a brief hold, I will reach out to the rental company and now right back with you, okay?"
+                }
+            },
+            {
+                "start": 427.31,
+                "end": 430.96,
+                "segmentId": "93",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure, but before you do. Is it B L A N C A or B L A N K A?"
+                }
+            },
+            {
+                "start": 431.82,
+                "end": 432.49,
+                "segmentId": "94",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "C A."
+                }
+            },
+            {
+                "start": 433.32,
+                "end": 434.62,
+                "segmentId": "95",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "B L A N C A, okay."
+                }
+            },
+            {
+                "start": 434.93,
+                "end": 436.38,
+                "segmentId": "96",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay #[overlap_start] alright. #[overlap_end]"
+                }
+            },
+            {
+                "start": 435.6,
+                "end": 440.99,
+                "segmentId": "97",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) just #[overlap_end] bear with me one moment #[phatic] on the line Martin. And I'll be #[phatic] right back with you."
+                }
+            },
+            {
+                "start": 440.99,
+                "end": 442.06,
+                "segmentId": "98",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay. Yep."
+                }
+            },
+            {
+                "start": 442.06,
+                "end": 443.81,
+                "segmentId": "99",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 443.81,
+                "end": 452.64,
+                "segmentId": "100",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Thank you for holding Martin, I do apologize for the delay. I'm still trying to get through with the rental company, okay? I'm sorry for delay. #[phatic] Bear with me one more moment more? Please?"
+                }
+            },
+            {
+                "start": 453.07,
+                "end": 453.47,
+                "segmentId": "101",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure."
+                }
+            },
+            {
+                "start": 454.52,
+                "end": 459.68,
+                "segmentId": "102",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Thank you so much. #[noise] Thank you so much for holding, I do apologize the long delay."
+                }
+            },
+            {
+                "start": 460.51,
+                "end": 462.23,
+                "segmentId": "103",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[noise] I'm here Blanca, it's okay."
+                }
+            },
+            {
+                "start": 462.23,
+                "end": 463.6,
+                "segmentId": "104",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 463.6,
+                "end": 465.6,
+                "segmentId": "105",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, did you manage to get your receipt?"
+                }
+            },
+            {
+                "start": 466.21,
+                "end": 472.03,
+                "segmentId": "106",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Wait. If I went to get it, I would have lost you in the elevator, so no, I have to go and get it."
+                }
+            },
+            {
+                "start": 472.3,
+                "end": 484.81,
+                "segmentId": "107",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh. #[laugh] Okay, no problem then. So go ahead and send it over to me. I spoke to Dollar and yes indeed, they weren't able to find the reservation.#[breath] Cause apparently, it seems as if this was not confirmed at Dollar."
+                }
+            },
+            {
+                "start": 485.31,
+                "end": 498.01,
+                "segmentId": "108",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So what we need to do is we need to work on our request for this. But in order for me to submit the refund request, we need to go ahead and I have you send us the receipt for the new rental that was made, okay?"
+                }
+            },
+            {
+                "start": 498.01,
+                "end": 501.23,
+                "segmentId": "109",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And that way we can #[phatic] go ahead and ((process)) the refund request (())."
+                }
+            },
+            {
+                "start": 501.63,
+                "end": 507.07,
+                "segmentId": "110",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Well, here here's the question of why, why that doesn't seem necessary. Let me o~ let me just offer this to you, okay?"
+                }
+            },
+            {
+                "start": 507.86,
+                "end": 516.46,
+                "segmentId": "111",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So what my wife wanted us to do was just take an Uber and say we don't need a rental car. So what if we had just said, we'll take an Uber and we're not going to get a rental car at all?"
+                }
+            },
+            {
+                "start": 517.09,
+                "end": 520.35,
+                "segmentId": "112",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "You wouldn't need tho~ you wouldn't need the receipt in that case, right?"
+                }
+            },
+            {
+                "start": 520.75,
+                "end": 523.44,
+                "segmentId": "113",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, we would, #ah bank statement."
+                }
+            },
+            {
+                "start": 524.27,
+                "end": 525.13,
+                "segmentId": "114",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "A bank statement?"
+                }
+            },
+            {
+                "start": 526.01,
+                "end": 528.7,
+                "segmentId": "115",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, where it reflects the charge for the Uber."
+                }
+            },
+            {
+                "start": 529.34,
+                "end": 534.8,
+                "segmentId": "116",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh okay, okay, ((good play)). All right, fair enough. So then you answered my question, thank you, thank you for that."
+                }
+            },
+            {
+                "start": 534.94,
+                "end": 535.36,
+                "segmentId": "117",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(())"
+                }
+            },
+            {
+                "start": 535.44,
+                "end": 538.92,
+                "segmentId": "118",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, see what happens. Okay. Yeah see what happens Martin is that"
+                }
+            },
+            {
+                "start": 539.44,
+                "end": 540.55,
+                "segmentId": "119",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sorry about that. Go ahead."
+                }
+            },
+            {
+                "start": 541.1,
+                "end": 543.7,
+                "segmentId": "120",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Go head, you ((just)) tell me what happens, ((I I'm listening))."
+                }
+            },
+            {
+                "start": 543.7,
+                "end": 544.92,
+                "segmentId": "121",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "See #um."
+                }
+            },
+            {
+                "start": 545.47,
+                "end": 559.94,
+                "segmentId": "122",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "What happens is that you have to, you know, we are a third party company, right? So we go #[phatic] through our suppliers. So in order for us to request something from the suppliers, they will always, trust me. They will always ask for backup."
+                }
+            },
+            {
+                "start": 559.94,
+                "end": 569.25,
+                "segmentId": "123",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#Er. #[phatic] Do you know, for us to give them backup #[breath] for them to, you know, be able to work with every request we are asking for."
+                }
+            },
+            {
+                "start": 569.25,
+                "end": 577.04,
+                "segmentId": "124",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[breath] That's why I'm asking #[phatic] you for a receipt so that in the longer run, if I submit the request afterwards, you know, they're not #[phatic] going to ask me for that again."
+                }
+            },
+            {
+                "start": 577.52,
+                "end": 591.37,
+                "segmentId": "125",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "You know, #[phatic] and I will be to give them that because you know, I don't have it. So that's why I'm asking you to send it over. #[phatic] You know, as soon as possible that way, the better the quicker we get it, the better because we can start working on this."
+                }
+            },
+            {
+                "start": 591.8,
+                "end": 597.06,
+                "segmentId": "126",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yep and really the best I'll be able to get it soon. So we're we're both we agree on it. So, so here's the question."
+                }
+            },
+            {
+                "start": 597.37,
+                "end": 599.85,
+                "segmentId": "127",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Which part of the agreement you need it? There're multiple pages."
+                }
+            },
+            {
+                "start": 600.56,
+                "end": 604.68,
+                "segmentId": "128",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#Ah the one where you just made the reservation basically and how much you paid?"
+                }
+            },
+            {
+                "start": 605.49,
+                "end": 607.33,
+                "segmentId": "129",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, that's fair enough. #[phatic] Okay, good."
+                }
+            },
+            {
+                "start": 608.64,
+                "end": 610.83,
+                "segmentId": "130",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, #[overlap_start] great then (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 609.06,
+                "end": 610.83,
+                "segmentId": "131",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] I was just, I #[overlap_end]"
+                }
+            },
+            {
+                "start": 610.83,
+                "end": 612.7,
+                "segmentId": "132",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Thank you Blanca, I appreciate your help very much."
+                }
+            },
+            {
+                "start": 612.85,
+                "end": 622.47,
+                "segmentId": "133",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No problem about that, Martin. The request will be submitted, okay? At the moment, I cannot go ahead and guarantee you anything, because you know, we still have to go through the supplier. #[breath]"
+                }
+            },
+            {
+                "start": 622.47,
+                "end": 630.2,
+                "segmentId": "134",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "But the request is there, so I mean, we definitely will go ahead and work on it, and as soon as we get an update, you will be notified. Okay, Martin?"
+                }
+            },
+            {
+                "start": 630.76,
+                "end": 634.98,
+                "segmentId": "135",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah. So so here's the, now now we've got through this ((and we're good that we all)) agree on the stuff."
+                }
+            },
+            {
+                "start": 635.74,
+                "end": 646.3,
+                "segmentId": "136",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yo~ you guys need to work on your on the on your portal. Because when, like I said, if I was in fro~ in front of your customer agent here with other people online waiting for her."
+                }
+            },
+            {
+                "start": 646.3,
+                "end": 652.99,
+                "segmentId": "137",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And I couldn't get through to you at all, because I followed your path through the number, you know to trace"
+                }
+            },
+            {
+                "start": 653.44,
+                "end": 661.36,
+                "segmentId": "138",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "and when it said, if you wanna if you want to talk to somebody about an existing reservation, press two. #[noise] But when I press two, it hung up on me."
+                }
+            },
+            {
+                "start": 661.36,
+                "end": 663.15,
+                "segmentId": "139",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[lipsmack] #[overlap_start] So, (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 661.58,
+                "end": 662.84,
+                "segmentId": "140",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Oh! What time was it? #[overlap_end]"
+                }
+            },
+            {
+                "start": 663.73,
+                "end": 667.79,
+                "segmentId": "141",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No, it wasn't just once it happened to me twice. It happened to her once."
+                }
+            },
+            {
+                "start": 668.37,
+                "end": 676.7,
+                "segmentId": "142",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So you say #[overlap_start] that thing. #[overlap_end] I'm yeah, I can tell you what's true it happened in nine fifteen and happened in nine thirty, it happened at quarter to ten."
+                }
+            },
+            {
+                "start": 668.72,
+                "end": 670.46,
+                "segmentId": "143",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] At what time, do you know? #[overlap_end]"
+                }
+            },
+            {
+                "start": 677.12,
+                "end": 678.47,
+                "segmentId": "144",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sorry, what time was that?"
+                }
+            },
+            {
+                "start": 679.23,
+                "end": 689.81,
+                "segmentId": "145",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Well, yo~ you need the exact time it happened? It happened it happened every time I did it. We were we were online, we first got there it was around #[noise] quarter to ten."
+                }
+            },
+            {
+                "start": 690.16,
+                "end": 695.0,
+                "segmentId": "146",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I ((think)) #[overlap_start] ((still quarter to nine)) #[overlap_end] at nine forty-five Pacific time."
+                }
+            },
+            {
+                "start": 690.29,
+                "end": 691.43,
+                "segmentId": "147",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Oh ((I see))! #[overlap_end]"
+                }
+            },
+            {
+                "start": 695.3,
+                "end": 698.13,
+                "segmentId": "148",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And then #[keyboard-noise] ten o'clock Pacific time and"
+                }
+            },
+            {
+                "start": 698.35,
+                "end": 702.4,
+                "segmentId": "149",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#Er #er it happened to hers. It happened to her first and happened #[phatic] to me twice."
+                }
+            },
+            {
+                "start": 702.96,
+                "end": 707.1,
+                "segmentId": "150",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So I mean I can't give you the you exact time, but obviously, but that it was around those times."
+                }
+            },
+            {
+                "start": 707.1,
+                "end": 713.07,
+                "segmentId": "151",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Cause wa~ if I did it right now, I can guarantee you the same thing will happening. I will record it for #[phatic] you if you want me to."
+                }
+            },
+            {
+                "start": 713.96,
+                "end": 728.04,
+                "segmentId": "152",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No, I'm asking because it could have possibly been when our office was still closed. But I mean, if it was during that time, it was like #[phatic] what eleven our time and we're all we're we are available from nine AM, Eastern standard time."
+                }
+            },
+            {
+                "start": 729.04,
+                "end": 740.14,
+                "segmentId": "153",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yo~ #[overlap_start] this wouldn't been (()) #[overlap_end] #[breath] This this would in the time that you open in that case. So your Eastern time? There's no question to me. Yeah, so, #um, that would, that wouldn't have been the issue (())."
+                }
+            },
+            {
+                "start": 729.04,
+                "end": 730.96,
+                "segmentId": "154",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] You know, so if that was this case, #[overlap_end]"
+                }
+            },
+            {
+                "start": 740.4,
+                "end": 748.73,
+                "segmentId": "155",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Exactly. #[breath] Exactly, #[phatic] cause we open at nine AM Eastern standard time. So I mean, #[phatic] if you called ten Pacific,"
+                }
+            },
+            {
+                "start": 749.29,
+                "end": 754.07,
+                "segmentId": "156",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I mean, yeah, we would definitely should have answered I'm not sure what happened #[phatic] there."
+                }
+            },
+            {
+                "start": 754.41,
+                "end": 764.6,
+                "segmentId": "157",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, and I, and again, I'm, I'm do~ I'm as~, I'm giving you this as a customer service crew. Because I'm not just the customer, I'm a consultant. And I'm"
+                }
+            },
+            {
+                "start": 765.13,
+                "end": 774.98,
+                "segmentId": "158",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I'm expecting to give other people the go ahead #er to to use your service. And I I would hate for that anybody that I like #[breath] to have to go through what I went through today."
+                }
+            },
+            {
+                "start": 775.26,
+                "end": 775.81,
+                "segmentId": "159",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah."
+                }
+            },
+            {
+                "start": 776.62,
+                "end": 777.72,
+                "segmentId": "160",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, I couldn't #[overlap_start] imagine. #[overlap_end]"
+                }
+            },
+            {
+                "start": 777.23,
+                "end": 778.23,
+                "segmentId": "161",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Right? #[overlap_end] Yeah."
+                }
+            },
+            {
+                "start": 778.23,
+                "end": 782.08,
+                "segmentId": "162",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I understand there Martin. #[breath] And I apologize, you know. #[noise]"
+                }
+            },
+            {
+                "start": 782.42,
+                "end": 783.72,
+                "segmentId": "163",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yep. (()) Hello?"
+                }
+            }
+        ],
+        "speakers": [
+            {
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_1",
+                "gender": "Male",
+                "genderSource": "AnnotatorIdentified",
+                "nativity": "Native",
+                "nativitySource": "AnnotatorIdentified",
+                "role": "Customer",
+                "roleSource": "AnnotatorIdentified",
+                "languages": [
+                    "en_US"
+                ]
+            },
+            {
+                "speakerId": "en_US_7fb28717-51b7-4d73-8a73-f9f9f8833720_2",
+                "gender": "Female",
+                "genderSource": "AnnotatorIdentified",
+                "nativity": "Native",
+                "nativitySource": "AnnotatorIdentified",
+                "role": "Agent",
+                "roleSource": "AnnotatorIdentified",
+                "languages": [
+                    "en_US"
+                ]
+            }
+        ],
+        "annotatorInfo": {
+            "LoginEncrypted": "N/A",
+            "annotatorID": "N/A",
+            "QATaskID": "N/A",
+            "QATaskStatus": "N/A"
+        },
+        "taskStatus": {
+            "segmentation": {
+                "workflowStatus": "COMPLETE",
+                "workflowType": "LABEL"
+            },
+            "speakerId": {
+                "workflowStatus": "COMPLETE",
+                "workflowType": "LABEL"
+            },
+            "transcription": {
+                "workflowStatus": "COMPLETE",
+                "workflowType": "LABEL"
+            }
+        },
+        "conventionInfo": {
+            "masterConventionName": "",
+            "customAddendum": ""
+        }
+    }
+}

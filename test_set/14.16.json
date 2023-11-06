@@ -1,0 +1,4050 @@
+{
+    "audio_file": {
+        "file_name": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525.wav",
+        "json_file": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525.json"
+    },
+    "type": {
+        "name": "MULTI_SPEAKER_LONG_FORM_TRANSCRIPTION",
+        "version": "2.0"
+    },
+    "value": {
+        "primaryLanguage": "en_US",
+        "primaryVariety": "N/A",
+        "otherLanguages": "N/A",
+        "domains": [
+            "Call Center"
+        ],
+        "topics": [
+            "Others"
+        ],
+        "contentDurations": {
+            "Speech": 560.81,
+            "PII": 1.23,
+            "Babble": 3.17,
+            "Noise": 167.91,
+            "Audio": 856.8
+        },
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 4.29,
+                "segmentId": "1",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Thank you for calling the concierge department my name is ((Greece,)) who do I have the pleasure of speaking with today?"
+                }
+            },
+            {
+                "start": 4.65,
+                "end": 6.05,
+                "segmentId": "2",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, hi, this is"
+                }
+            },
+            {
+                "start": 6.06,
+                "end": 7.29,
+                "segmentId": "3",
+                "primaryType": "PII",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[pii-name]"
+                }
+            },
+            {
+                "start": 7.54,
+                "end": 9.01,
+                "segmentId": "4",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hi, Armano!"
+                }
+            },
+            {
+                "start": 9.33,
+                "end": 13.48,
+                "segmentId": "5",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "As you're calling from (()) is that the number associated with your account?"
+                }
+            },
+            {
+                "start": 13.97,
+                "end": 14.74,
+                "segmentId": "6",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes."
+                }
+            },
+            {
+                "start": 14.97,
+                "end": 19.23,
+                "segmentId": "7",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, one moment for me to pull up an account ((yeah mister Armano, mister Armano.))"
+                }
+            },
+            {
+                "start": 19.25,
+                "end": 19.74,
+                "segmentId": "8",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "All right."
+                }
+            },
+            {
+                "start": 19.78,
+                "end": 26.57,
+                "segmentId": "9",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, well thank you so much mister Armano for being a member of Well Discovery Pacific. How may I ((further assist)) your travel needs today?"
+                }
+            },
+            {
+                "start": 27.23,
+                "end": 34.82,
+                "segmentId": "10",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hi, I'm just cur~ I'm trying to rent a car, I'm going to ((Cargo)) tomorrow (()) whatever it's called."
+                }
+            },
+            {
+                "start": 35.44,
+                "end": 36.69,
+                "segmentId": "11",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(())"
+                }
+            },
+            {
+                "start": 37.45,
+                "end": 38.04,
+                "segmentId": "12",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 38.37,
+                "end": 42.13,
+                "segmentId": "13",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And I'm trying to rent a car once I get there from the airport."
+                }
+            },
+            {
+                "start": 42.85,
+                "end": 44.36,
+                "segmentId": "14",
+                "primaryType": "Babble",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 44.36,
+                "end": 50.9,
+                "segmentId": "15",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah. #[no-speech] It's that a possibility or do I have to go to a rental place over there?"
+                }
+            },
+            {
+                "start": 52.25,
+                "end": 54.44,
+                "segmentId": "16",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So we could see what we have available at this time."
+                }
+            },
+            {
+                "start": 55.7,
+                "end": 56.46,
+                "segmentId": "17",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "All right."
+                }
+            },
+            {
+                "start": 56.56,
+                "end": 65.02,
+                "segmentId": "18",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 67.7,
+                "end": 71.71000000000001,
+                "segmentId": "19",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 71.8,
+                "end": 73.73,
+                "segmentId": "20",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "The ((Cabos)) international airport?"
+                }
+            },
+            {
+                "start": 73.77,
+                "end": 75.7,
+                "segmentId": "21",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 75.74,
+                "end": 78.56,
+                "segmentId": "22",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um I think it's yeah I believe so."
+                }
+            },
+            {
+                "start": 78.68,
+                "end": 86.53999999999999,
+                "segmentId": "23",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 86.63,
+                "end": 91.24,
+                "segmentId": "24",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 91.4,
+                "end": 91.99,
+                "segmentId": "25",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 93.07,
+                "end": 95.28,
+                "segmentId": "26",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Could I, and could I have a pick-up date, please?"
+                }
+            },
+            {
+                "start": 95.32,
+                "end": 97.15,
+                "segmentId": "27",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 97.19,
+                "end": 98.49000000000001,
+                "segmentId": "28",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Pick-up date is tomorrow."
+                }
+            },
+            {
+                "start": 99.18,
+                "end": 101.15,
+                "segmentId": "29",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Can I have a drop-off date, please?"
+                }
+            },
+            {
+                "start": 101.18,
+                "end": 102.85,
+                "segmentId": "30",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 102.86,
+                "end": 104.92,
+                "segmentId": "31",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Drop-off it is twentieth."
+                }
+            },
+            {
+                "start": 104.97999999999999,
+                "end": 105.9,
+                "segmentId": "32",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 105.93,
+                "end": 107.19,
+                "segmentId": "33",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "The twenty six? #[noise]"
+                }
+            },
+            {
+                "start": 108.8,
+                "end": 109.52000000000001,
+                "segmentId": "34",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes."
+                }
+            },
+            {
+                "start": 109.97,
+                "end": 111.52000000000001,
+                "segmentId": "35",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Could I have a (())?"
+                }
+            },
+            {
+                "start": 111.84,
+                "end": 113.52000000000001,
+                "segmentId": "36",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Could I have a pick-up time, please?"
+                }
+            },
+            {
+                "start": 115.42,
+                "end": 116.72999999999999,
+                "segmentId": "37",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um"
+                }
+            },
+            {
+                "start": 117.53999999999999,
+                "end": 119.97999999999999,
+                "segmentId": "38",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I don't know I believe I'm arriving at"
+                }
+            },
+            {
+                "start": 121.34,
+                "end": 123.77,
+                "segmentId": "39",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "noon so hold on one second."
+                }
+            },
+            {
+                "start": 126.54,
+                "end": 128.65,
+                "segmentId": "40",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, #[overlap_start] I'm right here okay yes #[overlap_end] I'm right here."
+                }
+            },
+            {
+                "start": 126.78,
+                "end": 128.14,
+                "segmentId": "41",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 128.66,
+                "end": 130.99,
+                "segmentId": "42",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Could I ha~ could I have a drop-off time, please?"
+                }
+            },
+            {
+                "start": 130.99,
+                "end": 132.81,
+                "segmentId": "43",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 132.85,
+                "end": 133.98,
+                "segmentId": "44",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Drop-off time."
+                }
+            },
+            {
+                "start": 135.27,
+                "end": 140.17000000000002,
+                "segmentId": "45",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 140.2,
+                "end": 142.46,
+                "segmentId": "46",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm, ((could you decide)) what drop-off time?"
+                }
+            },
+            {
+                "start": 143.63,
+                "end": 146.61,
+                "segmentId": "47",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I'm I'm looking to see what's my flight time, so."
+                }
+            },
+            {
+                "start": 146.63,
+                "end": 149.03,
+                "segmentId": "48",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, well take your time, I'm right here."
+                }
+            },
+            {
+                "start": 149.07,
+                "end": 150.61,
+                "segmentId": "49",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 150.64,
+                "end": 151.12,
+                "segmentId": "50",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "((All right.))"
+                }
+            },
+            {
+                "start": 151.15,
+                "end": 154.73,
+                "segmentId": "51",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 155.35,
+                "end": 157.07,
+                "segmentId": "52",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 157.63,
+                "end": 159.38,
+                "segmentId": "53",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 160.0,
+                "end": 160.85,
+                "segmentId": "54",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 160.86,
+                "end": 163.65,
+                "segmentId": "55",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, #uh probably around one PM."
+                }
+            },
+            {
+                "start": 164.26,
+                "end": 165.25,
+                "segmentId": "56",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, one PM."
+                }
+            },
+            {
+                "start": 166.34,
+                "end": 166.68,
+                "segmentId": "57",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes."
+                }
+            },
+            {
+                "start": 166.82,
+                "end": 170.55,
+                "segmentId": "58",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 170.57999999999998,
+                "end": 179.05,
+                "segmentId": "59",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, let me see what we have available for that time. Oh and #um it was one PM for picking it up also, am I correct?"
+                }
+            },
+            {
+                "start": 179.07,
+                "end": 180.16,
+                "segmentId": "60",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 180.17,
+                "end": 181.4,
+                "segmentId": "61",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, twelve thirty to one."
+                }
+            },
+            {
+                "start": 181.81,
+                "end": 182.81,
+                "segmentId": "62",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] One (()).#[overlap_end]"
+                }
+            },
+            {
+                "start": 182.2,
+                "end": 182.67,
+                "segmentId": "63",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Okay.#[overlap_end]"
+                }
+            },
+            {
+                "start": 184.46,
+                "end": 186.72,
+                "segmentId": "64",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, so."
+                }
+            },
+            {
+                "start": 186.76,
+                "end": 191.08,
+                "segmentId": "65",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 191.24,
+                "end": 193.79,
+                "segmentId": "66",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Will you be dropping it off at the same location?"
+                }
+            },
+            {
+                "start": 193.81,
+                "end": 194.8,
+                "segmentId": "67",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 194.84,
+                "end": 195.97,
+                "segmentId": "68",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "At the airport yeah."
+                }
+            },
+            {
+                "start": 196.34,
+                "end": 199.87,
+                "segmentId": "69",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So that's ((done)) there's the twenty first to the twenty fifth."
+                }
+            },
+            {
+                "start": 199.94,
+                "end": 201.63,
+                "segmentId": "70",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 201.66,
+                "end": 204.2,
+                "segmentId": "71",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um I ((it's)) only, hold on."
+                }
+            },
+            {
+                "start": 204.66,
+                "end": 207.21,
+                "segmentId": "72",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 207.31,
+                "end": 210.98,
+                "segmentId": "73",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 211.01,
+                "end": 212.72,
+                "segmentId": "74",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, dropping off on the twenty fifth."
+                }
+            },
+            {
+                "start": 212.82,
+                "end": 214.02,
+                "segmentId": "75",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 214.05,
+                "end": 214.69,
+                "segmentId": "76",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 214.72,
+                "end": 215.95,
+                "segmentId": "77",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 216.04,
+                "end": 222.22,
+                "segmentId": "78",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 222.25,
+                "end": 227.73,
+                "segmentId": "79",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, #um just to clarify something can I please (()) let me just confirm something, ((please?))"
+                }
+            },
+            {
+                "start": 227.8,
+                "end": 229.19,
+                "segmentId": "80",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure go ahead."
+                }
+            },
+            {
+                "start": 229.37,
+                "end": 230.52,
+                "segmentId": "81",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay (())."
+                }
+            },
+            {
+                "start": 230.69,
+                "end": 233.47,
+                "segmentId": "82",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 233.51,
+                "end": 235.47,
+                "segmentId": "83",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 235.51,
+                "end": 236.69,
+                "segmentId": "84",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 236.76,
+                "end": 237.92000000000002,
+                "segmentId": "85",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 237.98,
+                "end": 241.68,
+                "segmentId": "86",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 241.73,
+                "end": 244.5,
+                "segmentId": "87",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 244.56,
+                "end": 245.48,
+                "segmentId": "88",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 245.52,
+                "end": 246.93,
+                "segmentId": "89",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 246.97,
+                "end": 248.5,
+                "segmentId": "90",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 248.85,
+                "end": 253.39,
+                "segmentId": "91",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[noise] (()) #[noise] yes, hello!"
+                }
+            },
+            {
+                "start": 253.46,
+                "end": 259.79,
+                "segmentId": "92",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I'm still here trying to confirm something about this I know but #um just give me a moment could I ((place you on a brief hold)), please?"
+                }
+            },
+            {
+                "start": 259.82,
+                "end": 260.66,
+                "segmentId": "93",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 260.7,
+                "end": 261.94,
+                "segmentId": "94",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, yes go ahead."
+                }
+            },
+            {
+                "start": 262.43,
+                "end": 263.54,
+                "segmentId": "95",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, thank you so much!"
+                }
+            },
+            {
+                "start": 263.66,
+                "end": 268.17,
+                "segmentId": "96",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 268.19,
+                "end": 269.0,
+                "segmentId": "97",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hello!"
+                }
+            },
+            {
+                "start": 269.03,
+                "end": 270.02,
+                "segmentId": "98",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 270.04,
+                "end": 270.33,
+                "segmentId": "99",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes."
+                }
+            },
+            {
+                "start": 270.36,
+                "end": 272.47,
+                "segmentId": "100",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 272.47,
+                "end": 272.69,
+                "segmentId": "101",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hi!"
+                }
+            },
+            {
+                "start": 272.71,
+                "end": 274.86,
+                "segmentId": "102",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 275.24,
+                "end": 278.92,
+                "segmentId": "103",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Yes, #[overlap_end] I'm, yes I'm still looking into the prices on this ((year))."
+                }
+            },
+            {
+                "start": 275.24,
+                "end": 275.73,
+                "segmentId": "104",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Hello! #[overlap_end]"
+                }
+            },
+            {
+                "start": 278.93,
+                "end": 280.36,
+                "segmentId": "105",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 280.39,
+                "end": 280.75,
+                "segmentId": "106",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Hello?"
+                }
+            },
+            {
+                "start": 280.78,
+                "end": 281.79,
+                "segmentId": "107",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 281.8,
+                "end": 282.72,
+                "segmentId": "108",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, I'm listening."
+                }
+            },
+            {
+                "start": 284.89,
+                "end": 285.3,
+                "segmentId": "109",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "So"
+                }
+            },
+            {
+                "start": 285.32,
+                "end": 285.98,
+                "segmentId": "110",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, I'm right here."
+                }
+            },
+            {
+                "start": 286.0,
+                "end": 288.64,
+                "segmentId": "111",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, #[overlap_start] I'm still #[overlap_end] looking into the prices here because #[breath]"
+                }
+            },
+            {
+                "start": 286.4,
+                "end": 286.97,
+                "segmentId": "112",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] ((I'm sorry!)) #[overlap_end]"
+                }
+            },
+            {
+                "start": 289.13,
+                "end": 298.38,
+                "segmentId": "113",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, ((there's)) yes they're changing ((and changing)) at the moment just please give me a moment. I'm so sorry I'm taking #um (()) but I have to look into this."
+                }
+            },
+            {
+                "start": 299.27,
+                "end": 301.13,
+                "segmentId": "114",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It's all right. #[overlap_start] (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 299.8,
+                "end": 302.97,
+                "segmentId": "115",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] I'm still just confirming #[overlap_end] something here."
+                }
+            },
+            {
+                "start": 303.81,
+                "end": 305.72,
+                "segmentId": "116",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Okay thank you #[overlap_end] so much."
+                }
+            },
+            {
+                "start": 303.54,
+                "end": 304.76,
+                "segmentId": "117",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] All right no problem. (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 306.1,
+                "end": 307.14,
+                "segmentId": "118",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(())"
+                }
+            },
+            {
+                "start": 307.29,
+                "end": 308.13,
+                "segmentId": "119",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 308.18,
+                "end": 309.59,
+                "segmentId": "120",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 309.64,
+                "end": 313.28,
+                "segmentId": "121",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 314.97,
+                "end": 321.8,
+                "segmentId": "122",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, so we already confirmed why the prices have been like this. #[no-speech] One moment."
+                }
+            },
+            {
+                "start": 322.18,
+                "end": 325.58,
+                "segmentId": "123",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, #[breath] (()) Cabos international airport from the"
+                }
+            },
+            {
+                "start": 325.81,
+                "end": 326.88,
+                "segmentId": "124",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "twenty first"
+                }
+            },
+            {
+                "start": 326.99,
+                "end": 340.47,
+                "segmentId": "125",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "at one PM to the twenty fifth at one PM also, #um we have an intermediate car, ((a precise)) car, we have a standard car the compact I'm just ((naming the type of cars,)) economy"
+                }
+            },
+            {
+                "start": 340.62,
+                "end": 342.43,
+                "segmentId": "126",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "there's also the premium car."
+                }
+            },
+            {
+                "start": 343.56,
+                "end": 352.0,
+                "segmentId": "127",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "There's economy sports utility vehicle that's #uh ki~ kinda big. Then there's the standard sports utility vehicle that's a red one."
+                }
+            },
+            {
+                "start": 352.73,
+                "end": 356.17,
+                "segmentId": "128",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, let me ask you what kind of car I'm looking for maybe it will be easier."
+                }
+            },
+            {
+                "start": 357.04,
+                "end": 357.46,
+                "segmentId": "129",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm."
+                }
+            },
+            {
+                "start": 357.46,
+                "end": 360.99,
+                "segmentId": "130",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Is there, is there any way #[no-speech] can you hear me?"
+                }
+            },
+            {
+                "start": 361.57,
+                "end": 362.49,
+                "segmentId": "131",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, I could hear you."
+                }
+            },
+            {
+                "start": 362.81,
+                "end": 367.97,
+                "segmentId": "132",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, is there any way we can check for a Jeep (())? Or a #[overlap_start] Jeep ((Sahara?)) #[overlap_end]"
+                }
+            },
+            {
+                "start": 367.13,
+                "end": 367.8,
+                "segmentId": "133",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] A Jeep? #[overlap_end]"
+                }
+            },
+            {
+                "start": 368.88,
+                "end": 369.1,
+                "segmentId": "134",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah."
+                }
+            },
+            {
+                "start": 369.14,
+                "end": 371.86,
+                "segmentId": "135",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, let me see if we have any Jeeps available."
+                }
+            },
+            {
+                "start": 371.89,
+                "end": 376.01,
+                "segmentId": "136",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 376.04,
+                "end": 379.66,
+                "segmentId": "137",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "When I checked the website there wasn't, I'm not sure ((if there's any.))"
+                }
+            },
+            {
+                "start": 380.88,
+                "end": 385.95,
+                "segmentId": "138",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[noise] #uh No, we don't have any Jeeps available at the moment."
+                }
+            },
+            {
+                "start": 385.98,
+                "end": 388.31,
+                "segmentId": "139",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 388.35,
+                "end": 388.94,
+                "segmentId": "140",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 389.01,
+                "end": 389.92,
+                "segmentId": "141",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 389.94,
+                "end": 390.28,
+                "segmentId": "142",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah."
+                }
+            },
+            {
+                "start": 390.31,
+                "end": 391.55,
+                "segmentId": "143",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um"
+                }
+            },
+            {
+                "start": 393.39,
+                "end": 397.44,
+                "segmentId": "144",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, so is there any other mid tier SUVs, like a Toyota RAV four?"
+                }
+            },
+            {
+                "start": 398.39,
+                "end": 399.45,
+                "segmentId": "145",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, let me see."
+                }
+            },
+            {
+                "start": 399.48,
+                "end": 402.64,
+                "segmentId": "146",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 403.7,
+                "end": 405.6,
+                "segmentId": "147",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 405.63,
+                "end": 409.15999999999997,
+                "segmentId": "148",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Well there is this economy SUV."
+                }
+            },
+            {
+                "start": 410.79,
+                "end": 412.7,
+                "segmentId": "149",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay which is #uh how much?"
+                }
+            },
+            {
+                "start": 412.77,
+                "end": 414.04,
+                "segmentId": "150",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 414.07,
+                "end": 415.53,
+                "segmentId": "151",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um There's the"
+                }
+            },
+            {
+                "start": 416.09000000000003,
+                "end": 419.76,
+                "segmentId": "152",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "((Gif Range)) and that is seventy seven dollars a day."
+                }
+            },
+            {
+                "start": 419.79,
+                "end": 422.47,
+                "segmentId": "153",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 422.5,
+                "end": 424.31,
+                "segmentId": "154",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "All right, anything cheaper? #[noise]"
+                }
+            },
+            {
+                "start": 424.35,
+                "end": 425.5,
+                "segmentId": "155",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 425.52,
+                "end": 430.09,
+                "segmentId": "156",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, we do have cheaper, then there's the #um #[noise]"
+                }
+            },
+            {
+                "start": 431.57,
+                "end": 433.79,
+                "segmentId": "157",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "there's the, one moment."
+                }
+            },
+            {
+                "start": 434.71,
+                "end": 439.63,
+                "segmentId": "158",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(()) that is fourteen dollars a day which give you a total of fifty six dollar."
+                }
+            },
+            {
+                "start": 439.67,
+                "end": 441.51,
+                "segmentId": "159",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 441.53,
+                "end": 442.11,
+                "segmentId": "160",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "What car is that?"
+                }
+            },
+            {
+                "start": 443.6,
+                "end": 456.44,
+                "segmentId": "161",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "That is the, it's an economy SUV (()) #[no-speech] (()) budget and it's fourteen dollars a day which give you a total of fifty six dollars I want you to know that this price does not include taxes made by the #um"
+                }
+            },
+            {
+                "start": 456.84000000000003,
+                "end": 457.68,
+                "segmentId": "162",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "car rentals."
+                }
+            },
+            {
+                "start": 458.36,
+                "end": 459.8,
+                "segmentId": "163",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 459.84000000000003,
+                "end": 463.29,
+                "segmentId": "164",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#uh How much are the taxes you know, or am I gonna find out over there?"
+                }
+            },
+            {
+                "start": 463.90999999999997,
+                "end": 473.76,
+                "segmentId": "165",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Well I could, they do have additional taxes such a,s I could name you some of them but we don't have all (()) with the car rental, #[overlap_start] but what I could do is I #[overlap_end]"
+                }
+            },
+            {
+                "start": 472.36,
+                "end": 473.79,
+                "segmentId": "166",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] ((But do you know how much))#[overlap_end]"
+                }
+            },
+            {
+                "start": 473.82,
+                "end": 474.79,
+                "segmentId": "167",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(())"
+                }
+            },
+            {
+                "start": 475.79,
+                "end": 481.98,
+                "segmentId": "168",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No, but what I could do is I could call the car rental and I can check for all fees they have. If that's okay with you."
+                }
+            },
+            {
+                "start": 482.7,
+                "end": 484.82,
+                "segmentId": "169",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, so what kind of car is this again?"
+                }
+            },
+            {
+                "start": 485.28,
+                "end": 488.75,
+                "segmentId": "170",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "This a economy (()) vehicle."
+                }
+            },
+            {
+                "start": 489.33,
+                "end": 491.56,
+                "segmentId": "171",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, but wha~ what brand of a car is it?"
+                }
+            },
+            {
+                "start": 492.22,
+                "end": 493.64,
+                "segmentId": "172",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#uh Let me get it here."
+                }
+            },
+            {
+                "start": 493.66,
+                "end": 495.76,
+                "segmentId": "173",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 495.79,
+                "end": 497.58,
+                "segmentId": "174",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It's a (())"
+                }
+            },
+            {
+                "start": 498.42,
+                "end": 499.13,
+                "segmentId": "175",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "A what?"
+                }
+            },
+            {
+                "start": 499.67,
+                "end": 502.19,
+                "segmentId": "176",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "A (())"
+                }
+            },
+            {
+                "start": 502.78,
+                "end": 503.3,
+                "segmentId": "177",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 504.22,
+                "end": 505.86,
+                "segmentId": "178",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(())"
+                }
+            },
+            {
+                "start": 507.01,
+                "end": 508.28,
+                "segmentId": "179",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 509.86,
+                "end": 511.3,
+                "segmentId": "180",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) What's the (())? #[overlap_end]"
+                }
+            },
+            {
+                "start": 510.15,
+                "end": 510.72,
+                "segmentId": "181",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Did you hear me? #[overlap_end]"
+                }
+            },
+            {
+                "start": 512.21,
+                "end": 513.91,
+                "segmentId": "182",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It's a Chrysler? #[noise]"
+                }
+            },
+            {
+                "start": 514.88,
+                "end": 523.69,
+                "segmentId": "183",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um No, okay, let me spell it out 'cause maybe you're not understanding me. #[overlap_start] It's R #[overlap_end] yeah R E N A U L T"
+                }
+            },
+            {
+                "start": 519.99,
+                "end": 520.87,
+                "segmentId": "184",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Okay. #[overlap_end]"
+                }
+            },
+            {
+                "start": 524.66,
+                "end": 528.09,
+                "segmentId": "185",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "then another word C A P T U R."
+                }
+            },
+            {
+                "start": 530.49,
+                "end": 531.76,
+                "segmentId": "186",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#uh (()) one."
+                }
+            },
+            {
+                "start": 532.24,
+                "end": 532.82,
+                "segmentId": "187",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 533.22,
+                "end": 538.27,
+                "segmentId": "188",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "C A P T U R #[no-speech] Captur."
+                }
+            },
+            {
+                "start": 539.55,
+                "end": 541.22,
+                "segmentId": "189",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh it's a Renault, okay."
+                }
+            },
+            {
+                "start": 541.31,
+                "end": 543.06,
+                "segmentId": "190",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm, yeah."
+                }
+            },
+            {
+                "start": 543.35,
+                "end": 543.85,
+                "segmentId": "191",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "All right."
+                }
+            },
+            {
+                "start": 544.41,
+                "end": 545.68,
+                "segmentId": "192",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] So #uh #[overlap_end]"
+                }
+            },
+            {
+                "start": 544.41,
+                "end": 545.68,
+                "segmentId": "193",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 547.45,
+                "end": 555.0,
+                "segmentId": "194",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "What I could do is I could ca~ I could call the #um car company and I could ask them what other fees they do include in that."
+                }
+            },
+            {
+                "start": 556.37,
+                "end": 558.21,
+                "segmentId": "195",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()), #[overlap_end] is that okay?"
+                }
+            },
+            {
+                "start": 556.48,
+                "end": 557.42,
+                "segmentId": "196",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Okay. #[overlap_end]"
+                }
+            },
+            {
+                "start": 559.05,
+                "end": 560.02,
+                "segmentId": "197",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Sure sure."
+                }
+            },
+            {
+                "start": 560.05,
+                "end": 562.34,
+                "segmentId": "198",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, well is this your best contact number?"
+                }
+            },
+            {
+                "start": 563.69,
+                "end": 565.82,
+                "segmentId": "199",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes, are you gonna call me back or do I just hold?"
+                }
+            },
+            {
+                "start": 566.31,
+                "end": 572.12,
+                "segmentId": "200",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um I'm gonna call you back 'cause at the moment my (()) is is having a technical difficulty so I will give you a call back."
+                }
+            },
+            {
+                "start": 572.89,
+                "end": 577.44,
+                "segmentId": "201",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, why didn't I go ahead and book something? And then once you find out, then I can just #um"
+                }
+            },
+            {
+                "start": 578.37,
+                "end": 581.25,
+                "segmentId": "202",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "I could tell you yeah that's okay, #[breath] are you on the website also?"
+                }
+            },
+            {
+                "start": 582.94,
+                "end": 587.16,
+                "segmentId": "203",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#uh Hold on, I can get on the website (())."
+                }
+            },
+            {
+                "start": 587.24,
+                "end": 588.33,
+                "segmentId": "204",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 589.05,
+                "end": 590.5,
+                "segmentId": "205",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 591.11,
+                "end": 592.1,
+                "segmentId": "206",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "In one minute."
+                }
+            },
+            {
+                "start": 592.63,
+                "end": 593.42,
+                "segmentId": "207",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 594.13,
+                "end": 595.35,
+                "segmentId": "208",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 597.92,
+                "end": 603.76,
+                "segmentId": "209",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 603.8,
+                "end": 605.28,
+                "segmentId": "210",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, I'm on the website (())."
+                }
+            },
+            {
+                "start": 605.93,
+                "end": 613.18,
+                "segmentId": "211",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay well you can do your bookings and I'm gonna call #[breath] the car company. #uh Will you be booking the same car?"
+                }
+            },
+            {
+                "start": 614.56,
+                "end": 619.93,
+                "segmentId": "212",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Well I don't know there's like too many options here, I don't know which one I'm gonna book, that's #[overlap_start] why I wanted #[overlap_end] to do it with you."
+                }
+            },
+            {
+                "start": 618.19,
+                "end": 619.05,
+                "segmentId": "213",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] Because. #[overlap_end]"
+                }
+            },
+            {
+                "start": 619.94,
+                "end": 622.95,
+                "segmentId": "214",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah because I will need to know #um"
+                }
+            },
+            {
+                "start": 623.41,
+                "end": 633.86,
+                "segmentId": "215",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "what car company to contact 'cause there is Alamo, Enterprise, Budget, Valor, Thrifty and I would need to know which #um car company I would need to contact."
+                }
+            },
+            {
+                "start": 634.29,
+                "end": 635.83,
+                "segmentId": "216",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 635.85,
+                "end": 637.75,
+                "segmentId": "217",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh oh I see, so you just want me to."
+                }
+            },
+            {
+                "start": 638.28,
+                "end": 644.04,
+                "segmentId": "218",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(()) I book in here economy car, compact full size car or (()) car?"
+                }
+            },
+            {
+                "start": 644.49,
+                "end": 653.25,
+                "segmentId": "219",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm, #[overlap_start] whatever #[overlap_end] one you want then just select it will start off with the cheapest one which is budget, or whatever which one is the cheapest ((it will start off))."
+                }
+            },
+            {
+                "start": 645.48,
+                "end": 646.21,
+                "segmentId": "220",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 653.75,
+                "end": 656.81,
+                "segmentId": "221",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay I'm looking here right now it's a sport"
+                }
+            },
+            {
+                "start": 656.88,
+                "end": 657.62,
+                "segmentId": "222",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "hold on"
+                }
+            },
+            {
+                "start": 657.92,
+                "end": 660.71,
+                "segmentId": "223",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "yes sport economy sport utility vehicle."
+                }
+            },
+            {
+                "start": 660.97,
+                "end": 661.49,
+                "segmentId": "224",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah."
+                }
+            },
+            {
+                "start": 661.51,
+                "end": 663.57,
+                "segmentId": "225",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "For twelve dollars a day."
+                }
+            },
+            {
+                "start": 664.35,
+                "end": 667.24,
+                "segmentId": "226",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Economy sports utility vehicle, let me see if I find that."
+                }
+            },
+            {
+                "start": 667.77,
+                "end": 670.68,
+                "segmentId": "227",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It's the same car it is a Renault Captur."
+                }
+            },
+            {
+                "start": 673.72,
+                "end": 677.03,
+                "segmentId": "228",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#um Okay, yes uh-huh."
+                }
+            },
+            {
+                "start": 678.76,
+                "end": 680.23,
+                "segmentId": "229",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And it's going (())."
+                }
+            },
+            {
+                "start": 680.76,
+                "end": 681.43,
+                "segmentId": "230",
+                "primaryType": "Babble",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 682.17,
+                "end": 683.11,
+                "segmentId": "231",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yes it's on budget."
+                }
+            },
+            {
+                "start": 683.14,
+                "end": 685.77,
+                "segmentId": "232",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 686.28,
+                "end": 687.19,
+                "segmentId": "233",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 690.41,
+                "end": 692.66,
+                "segmentId": "234",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh 'cause ((you have to run the search again))."
+                }
+            },
+            {
+                "start": 693.95,
+                "end": 694.7,
+                "segmentId": "235",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm."
+                }
+            },
+            {
+                "start": 695.5,
+                "end": 698.18,
+                "segmentId": "236",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh hang ((how to do ))."
+                }
+            },
+            {
+                "start": 698.64,
+                "end": 702.04,
+                "segmentId": "237",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah so (()) from budget what I can do is I could call them."
+                }
+            },
+            {
+                "start": 703.18,
+                "end": 703.9,
+                "segmentId": "238",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 704.07,
+                "end": 705.59,
+                "segmentId": "239",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 706.84,
+                "end": 709.22,
+                "segmentId": "240",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay so which one do I"
+                }
+            },
+            {
+                "start": 709.87,
+                "end": 710.11,
+                "segmentId": "241",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 710.66,
+                "end": 716.61,
+                "segmentId": "242",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "which one do I chose here? #um (()) Plaza or do I go for (()) whatever?"
+                }
+            },
+            {
+                "start": 718.91,
+                "end": 721.65,
+                "segmentId": "243",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#uh Is that under location section?"
+                }
+            },
+            {
+                "start": 722.34,
+                "end": 728.69,
+                "segmentId": "244",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah the location and it gives me two options for location but (()) airport so which one is the airport?"
+                }
+            },
+            {
+                "start": 728.72,
+                "end": 732.1,
+                "segmentId": "245",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay you type in S J D that that is the airport (())."
+                }
+            },
+            {
+                "start": 733.94,
+                "end": 741.52,
+                "segmentId": "246",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#uh Do I so the ((pick-up)) location (()) Cabos. #[noise]"
+                }
+            },
+            {
+                "start": 741.53,
+                "end": 743.99,
+                "segmentId": "247",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm #[overlap_start] S J D. #[overlap_end]"
+                }
+            },
+            {
+                "start": 742.21,
+                "end": 743.34,
+                "segmentId": "248",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 745.58,
+                "end": 746.06,
+                "segmentId": "249",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "One moment."
+                }
+            },
+            {
+                "start": 746.06,
+                "end": 748.41,
+                "segmentId": "250",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And then it will provide you with that airport."
+                }
+            },
+            {
+                "start": 748.41,
+                "end": 750.04,
+                "segmentId": "251",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 750.04,
+                "end": 752.39,
+                "segmentId": "252",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "S J D."
+                }
+            },
+            {
+                "start": 752.43,
+                "end": 752.95,
+                "segmentId": "253",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm."
+                }
+            },
+            {
+                "start": 753.52,
+                "end": 756.0,
+                "segmentId": "254",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Los Cabos international airport all right."
+                }
+            },
+            {
+                "start": 756.76,
+                "end": 758.9,
+                "segmentId": "255",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 758.93,
+                "end": 760.29,
+                "segmentId": "256",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Then you fill in your dates."
+                }
+            },
+            {
+                "start": 761.96,
+                "end": 763.33,
+                "segmentId": "257",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah I put the dates in."
+                }
+            },
+            {
+                "start": 764.08,
+                "end": 764.87,
+                "segmentId": "258",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And time."
+                }
+            },
+            {
+                "start": 764.92,
+                "end": 765.72,
+                "segmentId": "259",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "(())"
+                }
+            },
+            {
+                "start": 768.3,
+                "end": 770.39,
+                "segmentId": "260",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Then you run the search again."
+                }
+            },
+            {
+                "start": 771.34,
+                "end": 772.05,
+                "segmentId": "261",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 773.89,
+                "end": 775.9,
+                "segmentId": "262",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 777.19,
+                "end": 778.8,
+                "segmentId": "263",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "All right, there you go. ((Thank you.))"
+                }
+            },
+            {
+                "start": 778.86,
+                "end": 779.4,
+                "segmentId": "264",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay."
+                }
+            },
+            {
+                "start": 779.44,
+                "end": 783.23,
+                "segmentId": "265",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 783.25,
+                "end": 785.01,
+                "segmentId": "266",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "And then once you go down."
+                }
+            },
+            {
+                "start": 785.04,
+                "end": 786.8,
+                "segmentId": "267",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 786.81,
+                "end": 787.73,
+                "segmentId": "268",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It will give you that."
+                }
+            },
+            {
+                "start": 787.76,
+                "end": 789.89,
+                "segmentId": "269",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 789.92,
+                "end": 792.22,
+                "segmentId": "270",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Oh okay so (()) giving me that."
+                }
+            },
+            {
+                "start": 793.11,
+                "end": 795.7,
+                "segmentId": "271",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm, #[noise] #[overlap_start] and that's the budget. #[overlap_end]"
+                }
+            },
+            {
+                "start": 794.49,
+                "end": 796.12,
+                "segmentId": "272",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) #[overlap_end]"
+                }
+            },
+            {
+                "start": 797.11,
+                "end": 802.58,
+                "segmentId": "273",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Yeah, so it's forty one fifty (()) so this would be (()) at the airport, right?"
+                }
+            },
+            {
+                "start": 802.61,
+                "end": 803.12,
+                "segmentId": "274",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Mhm."
+                }
+            },
+            {
+                "start": 803.14,
+                "end": 804.77,
+                "segmentId": "275",
+                "primaryType": "Noise",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 804.78,
+                "end": 807.78,
+                "segmentId": "276",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay perfect so I I really don't need to"
+                }
+            },
+            {
+                "start": 808.56,
+                "end": 809.57,
+                "segmentId": "277",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "do anything else, right?"
+                }
+            },
+            {
+                "start": 810.64,
+                "end": 817.71,
+                "segmentId": "278",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No. #[noise] #[no-speech] You just, are you, you will you be booking on your end or you want me to book it on my end?"
+                }
+            },
+            {
+                "start": 818.14,
+                "end": 819.6,
+                "segmentId": "279",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No no I'm able to book it here."
+                }
+            },
+            {
+                "start": 820.07,
+                "end": 821.82,
+                "segmentId": "280",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, #[overlap_start] so. #[overlap_end]"
+                }
+            },
+            {
+                "start": 820.62,
+                "end": 822.17,
+                "segmentId": "281",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] (()) book it here. #[overlap_end]"
+                }
+            },
+            {
+                "start": 822.17,
+                "end": 825.13,
+                "segmentId": "282",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Do you, #[overlap_start] do you still want me, #[overlap_end] do you still want me to call you?"
+                }
+            },
+            {
+                "start": 822.73,
+                "end": 823.56,
+                "segmentId": "283",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "#[overlap_start] All right. #[overlap_end]"
+                }
+            },
+            {
+                "start": 825.13,
+                "end": 826.12,
+                "segmentId": "284",
+                "primaryType": "Babble",
+                "loudnessLevel": "Normal"
+            },
+            {
+                "start": 826.12,
+                "end": 827.62,
+                "segmentId": "285",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No, don't worry about it, I'm good."
+                }
+            },
+            {
+                "start": 828.12,
+                "end": 831.38,
+                "segmentId": "286",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, was there anything else you would like me to assist you with ((today))?"
+                }
+            },
+            {
+                "start": 831.4,
+                "end": 833.09,
+                "segmentId": "287",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "No, I appreciate your help."
+                }
+            },
+            {
+                "start": 833.67,
+                "end": 843.93,
+                "segmentId": "288",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, well thank you so much for being a member of Well Discovery Pacific and before we end this call I will have to remind you to check your emails for your special (()) that we send each week, ((have you been getting those emails?))"
+                }
+            },
+            {
+                "start": 845.31,
+                "end": 846.29,
+                "segmentId": "289",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "((All right.))"
+                }
+            },
+            {
+                "start": 847.09,
+                "end": 852.42,
+                "segmentId": "290",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Okay, that's great well then again my name is (()) thank you for being a member of Well Discovery Pacific and have a great day."
+                }
+            },
+            {
+                "start": 853.54,
+                "end": 855.12,
+                "segmentId": "291",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "It is thank you, bye bye, bye bye!"
+                }
+            },
+            {
+                "start": 855.17,
+                "end": 856.96,
+                "segmentId": "292",
+                "primaryType": "Speech",
+                "loudnessLevel": "Normal",
+                "language": [
+                    "en_US"
+                ],
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "discarded": false,
+                "is_valid": true,
+                "transcriptionData": {
+                    "content": "Bye bye!"
+                }
+            }
+        ],
+        "speakers": [
+            {
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_1",
+                "gender": "Female",
+                "genderSource": "AnnotatorIdentified",
+                "nativity": "Native",
+                "nativitySource": "AnnotatorIdentified",
+                "role": "Agent",
+                "roleSource": "AnnotatorIdentified",
+                "languages": [
+                    "en_US"
+                ]
+            },
+            {
+                "speakerId": "en_US_a7203127-0f0f-43e0-9ec0-1f28760c2525_2",
+                "gender": "Male",
+                "genderSource": "AnnotatorIdentified",
+                "nativity": "Native",
+                "nativitySource": "AnnotatorIdentified",
+                "role": "Customer",
+                "roleSource": "AnnotatorIdentified",
+                "languages": [
+                    "en_US"
+                ]
+            }
+        ],
+        "annotatorInfo": {
+            "LoginEncrypted": "N/A",
+            "annotatorID": "N/A",
+            "QATaskID": "N/A",
+            "QATaskStatus": "N/A"
+        },
+        "taskStatus": {
+            "segmentation": {
+                "workflowStatus": "COMPLETE",
+                "workflowType": "LABEL"
+            },
+            "speakerId": {
+                "workflowStatus": "COMPLETE",
+                "workflowType": "LABEL"
+            },
+            "transcription": {
+                "workflowStatus": "COMPLETE",
+                "workflowType": "LABEL"
+            }
+        },
+        "conventionInfo": {
+            "masterConventionName": "",
+            "customAddendum": ""
+        }
+    }
+}
