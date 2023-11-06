@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .audio-list {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .audio-player {
+            margin-bottom: 10px;
+        }
+
+        .text-paragraph {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="audio-list">
+            <div class="audio-player">
+                <audio controls>
+                    <source src="/audio/conversation.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="text-paragraph">
+            <p>This is the transcription of the audio file</p>
+        </div>
+    </div>
+</body>
+</html>
