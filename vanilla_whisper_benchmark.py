@@ -16,7 +16,7 @@ def get_wav_files_in_directory(directory_path):
 
 def get_transcription(audio_file_path, model="tiny"):
     stats = get_audio_stats(audio_file_path)
-    model = whisper.load_model(name=model, in_memory=True, fp16=False)
+    model = whisper.load_model(name=model, in_memory=True)
     result = model.transcribe(audio_file_path)
     return result, stats
 
