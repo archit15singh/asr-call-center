@@ -4,7 +4,6 @@ from pathlib import Path
 from audio_utils import get_audio_stats
 
 import whisper
-import pandas as pd
 
 
 def get_wav_files_in_directory(directory_path):
