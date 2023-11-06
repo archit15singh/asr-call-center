@@ -28,7 +28,7 @@ for audio_file_path in wav_files:
     audio_file_path = str(audio_file_path)
     stats = get_audio_stats(audio_file_path)
     print(stats)
-    models = ["tiny", "base", "small", "medium", "large-v1", "large-v2"]
+    models = ["tiny.en", "base.en", "small.en", "medium.en", "large-v1", "large-v2"]
     for model in models:
         print(model)
         s = time.time()
