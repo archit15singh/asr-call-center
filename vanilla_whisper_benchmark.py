@@ -25,12 +25,12 @@ audio_directory_path = "/Users/architsingh/Documents/projects/asr-call-center/te
 wav_files = get_wav_files_in_directory(audio_directory_path)
 
 for audio_file_path in wav_files:
+    print("*"*100)
     audio_file_path = str(audio_file_path)
     stats = get_audio_stats(audio_file_path)
     print(stats)
     s = time.time()
-    # models = ["tiny", "base", "small", "medium", "large-v1", "large-v2"]
-    models = ["tiny"]
+    models = ["tiny", "base", "small", "medium", "large-v1", "large-v2"]
     for model in models:
         get_transcription(audio_file_path=audio_file_path, model=model)
     e = time.time()
