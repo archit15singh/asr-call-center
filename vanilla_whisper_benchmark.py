@@ -28,10 +28,10 @@ for audio_file_path in wav_files:
     audio_file_path = str(audio_file_path)
     stats = get_audio_stats(audio_file_path)
     print(stats)
-    s = time.time()
     models = ["tiny", "base", "small", "medium", "large-v1", "large-v2"]
     for model in models:
         print(model)
+        s = time.time()
         get_transcription(audio_file_path=audio_file_path, model=model)
-    e = time.time()
-    print(e-s)
+        e = time.time()
+        print(e-s)
