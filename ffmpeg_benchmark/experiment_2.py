@@ -43,8 +43,8 @@ def convert_all_wav_files(input_folder, output_folder):
 
     print(f"Conversion took {elapsed_time:.2f} seconds.")
 
-input_folder = '/Users/architsingh/Documents/projects/sqs-s3-boto3/ffmpeg_benchmark/test_set'
-output_folder = '/Users/architsingh/Documents/projects/sqs-s3-boto3/ffmpeg_benchmark/test_set_converted'
+input_folder = '/Users/architsingh/Documents/projects/asr-call-center/ffmpeg_benchmark/test_set'
+output_folder = '/Users/architsingh/Documents/projects/asr-call-center/ffmpeg_benchmark/test_set_converted'
 
 if Path(output_folder).exists():
     shutil.rmtree(Path(output_folder))
