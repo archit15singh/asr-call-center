@@ -2,6 +2,62 @@ import boto3
 import json
 from pathlib import Path
 import concurrent.futures
+import subprocess
+import time
+
+def convert_wav(input_file, output_file):
+    try:
+        print(f"Converting {input_file.stem}...")
+        ffmpeg_command = [
+            "ffmpeg",
+            "-y",
+            "-i", str(input_file),
+            "-ar", "16000",
+            "-ac", "1",
+            "-c:a", "pcm_s16le",
+            str(output_file)
+        ]
+
+        subprocess.run(ffmpeg_command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        print(f"Conversion of {input_file.stem} completed.")
+
+        # Delete the original file after successful conversion
+        input_file.unlink()
+        print(f"Deleted original file: {input_file}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error converting {input_file.stem}: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+
+def convert_all_wav_files(input_folder, output_folder):
+    Path(output_folder).mkdir(parents=True, exist_ok=True)
+
+    input_folder_path = Path(input_folder)
+    output_folder_path = Path(output_folder)
+
+    wav_files = list(input_folder_path.glob("*.mp3"))
+
+    if not wav_files:
+        print("No WAV files found in the input folder.")
+        return
+
+    start_time = time.time()
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+        for wav_file in wav_files:
+            output_file = output_folder_path / f"{wav_file.stem}_converted.wav"
+            futures.append(executor.submit(convert_wav, wav_file, output_file))
+
+        concurrent.futures.wait(futures)
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+
+    print(f"\nConversion of all WAV files took {elapsed_time:.2f} seconds.")
+    print(f"Original files count: {len(wav_files)}")
+    print(f"Converted files count: {len(list(output_folder_path.glob('*.wav')))}")
 
 
 def download_s3_file_to_fs(bucket_name, key, fs_folder_path):
@@ -19,18 +75,22 @@ def download_files_in_parallel(bucket_name, keys, fs_folder_path):
         concurrent.futures.wait(futures)
 
 
-def receive_and_delete_message(queue_url):
+def download(queue_url, folder):
     sqs = boto3.client('sqs')
 
     response = sqs.receive_message(
         QueueUrl=queue_url,
         MaxNumberOfMessages=10,
     )
-
+    if 'Messages' not in response:
+        return False
+    
     if 'Messages' in response:
         messages = response['Messages']
         if bool(messages):
             print(len(messages))
+        else:
+            return False
         bucket_name = ""
         keys = []
         for message in messages:
@@ -54,21 +114,15 @@ def receive_and_delete_message(queue_url):
         
         if bool(keys):
             print(keys)
-            download_files_in_parallel(bucket_name, keys, './data')
+            download_files_in_parallel(bucket_name, keys, folder)
+        return True
+
 
 queue_url = 'https://sqs.ap-south-1.amazonaws.com/282118275734/ags-metadata'
+
 while True:
-    receive_and_delete_message(queue_url)
-
-
-
-
-
-
-
-
-
-
-
-
-
+    ret = download(queue_url, folder='./data')
+    if ret:
+        input_folder = './data'
+        output_folder = './converted'
+        convert_all_wav_files(input_folder, output_folder)
