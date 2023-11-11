@@ -4,7 +4,25 @@ from pathlib import Path
 import concurrent.futures
 import subprocess
 import time
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
+AWS_DEFAULT_REGION = os.environ.get("AWS_DEFAULT_REGION")
+SQS_QUEUE_URL = os.environ.get("SQS_QUEUE_URL")
+INPUT_S3_BUCKET_NAME = os.environ.get("INPUT_S3_BUCKET_NAME")
+RAW_FOLDER = os.environ.get("RAW_FOLDER", "./data")
+CONVERSION_OUTPUT_FOLDER = os.environ.get("CONVERSION_OUTPUT_FOLDER", "./converted")
+TRANSCRIPTION_OUTPUT_FOLDER = os.environ.get("TRANSCRIPTION_OUTPUT_FOLDER", "./transcriptions")
+
+session = boto3.Session(
+    aws_access_key_id=AWS_ACCESS_KEY_ID,
+    aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
+    region_name=AWS_DEFAULT_REGION
+)
 
 def transcribe_folder(input_folder: str, output_folder) -> None:
     input_folder_path = Path(input_folder)
@@ -13,7 +31,7 @@ def transcribe_folder(input_folder: str, output_folder) -> None:
     for wav_file in input_folder_path.glob("*.wav"):
         transcribe(wav_file, output_folder_path)
     else:
-        print("completed transcibe")
+        print("completed transcribe")
 
 
 def transcribe(input_file: Path, output_folder: Path) -> None:
@@ -54,7 +72,6 @@ def convert_wav(input_file, output_file):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-
 def convert_all_wav_files(input_folder, output_folder):
     input_folder_path = Path(input_folder)
     output_folder_path = Path(output_folder)
@@ -82,7 +99,6 @@ def convert_all_wav_files(input_folder, output_folder):
     print(f"Original files count: {len(wav_files)}")
     print(f"Converted files count: {len(list(output_folder_path.glob('*.wav')))}")
 
-
 def download_s3_file_to_fs(bucket_name, key, fs_folder_path):
     s3_client = boto3.client('s3')
     fs_file_name = Path(key).name
@@ -90,12 +106,10 @@ def download_s3_file_to_fs(bucket_name, key, fs_folder_path):
     with open(fs_file_path, 'wb') as f:
         s3_client.download_fileobj(bucket_name, key, f)
 
-
 def download_files_in_parallel(bucket_name, keys, fs_folder_path):
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = [executor.submit(download_s3_file_to_fs, bucket_name, key, fs_folder_path) for key in keys]
         concurrent.futures.wait(futures)
-
 
 def download(queue_url, folder):
     sqs = boto3.client('sqs')
@@ -116,22 +130,18 @@ def download(queue_url, folder):
         bucket_name = ""
         keys = []
         for message in messages:
-            # print(message['MessageId'])
             body_dict = json.loads(message['Body'])
             
-            # take this two and call function download_files_in_parallel
             if not bool(bucket_name):
                 bucket_name = body_dict['s3_bucket_name']
             keys.append(body_dict['key'])
             
             receipt_handle = message['ReceiptHandle']
-            # print('Received message: %s' % body_dict)
 
             sqs.delete_message(
                 QueueUrl=queue_url,
                 ReceiptHandle=receipt_handle
             )
-            # print('Deleted message: %s' % message)
         
         
         if bool(keys):
@@ -140,13 +150,14 @@ def download(queue_url, folder):
         return True
 
 
-queue_url = 'https://sqs.ap-south-1.amazonaws.com/282118275734/ags-metadata'
-
 while True:
-    download(queue_url, folder='./data')
-    input_folder = './data'
-    output_folder = './converted'
+    download(SQS_QUEUE_URL, folder=RAW_FOLDER)
+    
+    input_folder = RAW_FOLDER
+    output_folder = CONVERSION_OUTPUT_FOLDER
     convert_all_wav_files(input_folder, output_folder)
-    input_folder = './converted'
-    output_folder = './transcriptions'
+    
+    input_folder = CONVERSION_OUTPUT_FOLDER
+    output_folder = TRANSCRIPTION_OUTPUT_FOLDER
     transcribe_folder(input_folder, output_folder)
+    
