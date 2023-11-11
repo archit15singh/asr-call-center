@@ -6,6 +6,7 @@ import subprocess
 import time
 import os
 from dotenv import load_dotenv
+from loguru import logger
 
 load_dotenv()
 
@@ -19,7 +20,6 @@ RAW_FOLDER = os.environ.get("RAW_FOLDER", "./data")
 CONVERSION_OUTPUT_FOLDER = os.environ.get("CONVERSION_OUTPUT_FOLDER", "./converted")
 TRANSCRIPTION_OUTPUT_FOLDER = os.environ.get("TRANSCRIPTION_OUTPUT_FOLDER", "./transcriptions")
 
-
 def upload_file_to_s3(file_path, bucket_name, s3_object_key):
     session = boto3.Session(
         aws_access_key_id=AWS_ACCESS_KEY_ID,
@@ -32,7 +32,6 @@ def upload_file_to_s3(file_path, bucket_name, s3_object_key):
         s3.upload_fileobj(f, bucket_name, s3_object_key)
     
     os.remove(file_path)
-
 
 def upload_folder_to_s3(folder_path, bucket_name, s3_prefix=''):
     with concurrent.futures.ThreadPoolExecutor() as executor:
@@ -57,8 +56,7 @@ def transcribe_folder(input_folder: str, output_folder) -> None:
     for wav_file in input_folder_path.glob("*.wav"):
         transcribe(wav_file, output_folder_path)
     else:
-        print("completed transcribe")
-
+        logger.info("completed transcribe")
 
 def transcribe(input_file: Path, output_folder: Path) -> None:
     output_path = output_folder / f"{input_file.stem}"
@@ -71,14 +69,14 @@ def transcribe(input_file: Path, output_folder: Path) -> None:
         "-oj",
         "-of", str(output_path)
     ]
-    print(command_list)
+    logger.debug(f"Transcription command: {command_list}")
     subprocess.run(command_list, check=True)
 
     input_file.unlink()
 
 def convert_wav(input_file, output_file):
     try:
-        print(f"Converting {input_file.stem}...")
+        logger.info(f"Converting {input_file.stem}...")
         ffmpeg_command = [
             "ffmpeg",
             "-y",
@@ -89,14 +87,14 @@ def convert_wav(input_file, output_file):
         ]
 
         subprocess.run(ffmpeg_command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(f"Conversion of {input_file.stem} completed.")
+        logger.info(f"Conversion of {input_file.stem} completed.")
 
         input_file.unlink()
-        print(f"Deleted original file: {input_file}")
+        logger.debug(f"Deleted original file: {input_file}")
     except subprocess.CalledProcessError as e:
-        print(f"Error converting {input_file.stem}: {e}")
+        logger.error(f"Error converting {input_file.stem}: {e}")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        logger.error(f"An unexpected error occurred: {e}")
 
 def convert_all_wav_files(input_folder, output_folder):
     input_folder_path = Path(input_folder)
@@ -105,7 +103,7 @@ def convert_all_wav_files(input_folder, output_folder):
     wav_files = list(input_folder_path.glob("*.mp3"))
 
     if not wav_files:
-        print("completed conversion")
+        logger.info("completed conversion")
         return
 
     start_time = time.time()
@@ -121,9 +119,9 @@ def convert_all_wav_files(input_folder, output_folder):
     end_time = time.time()
     elapsed_time = end_time - start_time
 
-    print(f"\nConversion of all WAV files took {elapsed_time:.2f} seconds.")
-    print(f"Original files count: {len(wav_files)}")
-    print(f"Converted files count: {len(list(output_folder_path.glob('*.wav')))}")
+    logger.info(f"\nConversion of all WAV files took {elapsed_time:.2f} seconds.")
+    logger.info(f"Original files count: {len(wav_files)}")
+    logger.info(f"Converted files count: {len(list(output_folder_path.glob('*.wav')))}")
 
 def download_s3_file_to_fs(bucket_name, key, fs_folder_path):
     s3_client = boto3.client('s3')
@@ -150,7 +148,7 @@ def download(queue_url, folder):
     if 'Messages' in response:
         messages = response['Messages']
         if bool(messages):
-            print(len(messages))
+            logger.info(f"Received {len(messages)} messages from SQS.")
         else:
             return False
         bucket_name = ""
@@ -169,9 +167,8 @@ def download(queue_url, folder):
                 ReceiptHandle=receipt_handle
             )
         
-        
         if bool(keys):
-            print(keys)
+            logger.info(f"Downloading files from S3: {keys}")
             download_files_in_parallel(bucket_name, keys, folder)
         return True
 
@@ -187,4 +184,5 @@ while True:
     output_folder = TRANSCRIPTION_OUTPUT_FOLDER
     transcribe_folder(input_folder, output_folder)
     
+    logger.info("Uploading transcriptions to S3.")
     upload_folder_to_s3(TRANSCRIPTION_OUTPUT_FOLDER, OUTPUT_S3_BUCKET_NAME)
