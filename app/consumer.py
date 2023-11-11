@@ -18,10 +18,10 @@ def transcribe_folder(input_folder: str, output_folder) -> None:
 
 def transcribe(input_file: Path, output_folder: Path) -> None:
     output_path = output_folder / f"{input_file.stem}"
-    model = "./whisper.cpp/models/ggml-medium.en.bin"
+    model = "whisper.cpp/models/ggml-medium.en.bin"
 
     command_list = [
-        "./whisper.cpp/main",
+        "whisper.cpp/main",
         "-f", str(input_file),
         "-m", model,
         "-oj",
