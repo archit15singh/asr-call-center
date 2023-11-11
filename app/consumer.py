@@ -12,19 +12,23 @@ def transcribe_folder(input_folder: str, output_folder) -> None:
 
     for wav_file in input_folder_path.glob("*.wav"):
         transcribe(wav_file, output_folder_path)
+    else:
+        print("no wav files to transcribe")
 
 
 def transcribe(input_file: Path, output_folder: Path) -> None:
-    output_path = output_folder / f"{input_file.stem}.json"
-    model = "./whisper.cpp/models/ggml-medium.bin"
+    output_path = output_folder / f"{input_file.stem}"
+    model = "./whisper.cpp/models/ggml-medium.en.bin"
 
-    subprocess.run(
-        f"./whisper.cpp/main -f {input_file} -m {model} -oj -of {output_path}",
-        shell=True,
-        check=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-    )
+    command_list = [
+        "./whisper.cpp/main",
+        "-f", str(input_file),
+        "-m", model,
+        "-oj",
+        "-of", str(output_path)
+    ]
+    print(command_list)
+    subprocess.run(command_list, check=True)
 
     input_file.unlink()
 
@@ -36,7 +40,6 @@ def convert_wav(input_file, output_file):
             "-y",
             "-i", str(input_file),
             "-ar", "16000",
-            "-ac", "1",
             "-c:a", "pcm_s16le",
             str(output_file)
         ]
@@ -53,8 +56,6 @@ def convert_wav(input_file, output_file):
 
 
 def convert_all_wav_files(input_folder, output_folder):
-    Path(output_folder).mkdir(parents=True, exist_ok=True)
-
     input_folder_path = Path(input_folder)
     output_folder_path = Path(output_folder)
 
@@ -83,7 +84,6 @@ def convert_all_wav_files(input_folder, output_folder):
 
 
 def download_s3_file_to_fs(bucket_name, key, fs_folder_path):
-    Path(fs_folder_path).mkdir(parents=True, exist_ok=True)
     s3_client = boto3.client('s3')
     fs_file_name = Path(key).name
     fs_file_path = Path(fs_folder_path) / Path(fs_file_name)
@@ -143,11 +143,10 @@ def download(queue_url, folder):
 queue_url = 'https://sqs.ap-south-1.amazonaws.com/282118275734/ags-metadata'
 
 while True:
-    ret = download(queue_url, folder='./data')
-    if ret:
-        input_folder = './data'
-        output_folder = './converted'
-        convert_all_wav_files(input_folder, output_folder)
-        input_folder = './converted'
-        output_folder = './transcriptions'
-        transcribe_folder(input_folder, output_folder)
+    download(queue_url, folder='./data')
+    input_folder = './data'
+    output_folder = './converted'
+    convert_all_wav_files(input_folder, output_folder)
+    input_folder = './converted'
+    output_folder = './transcriptions'
+    transcribe_folder(input_folder, output_folder)

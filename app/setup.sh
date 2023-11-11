@@ -9,6 +9,7 @@ pip install -r requirements.txt
 
 brew install ffmpeg
 
+rm -rf whisper.cpp
 git clone https://github.com/ggerganov/whisper.cpp
 cd whisper.cpp
 bash ./models/generate-coreml-model.sh medium.en
