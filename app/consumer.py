@@ -5,6 +5,29 @@ import concurrent.futures
 import subprocess
 import time
 
+
+def transcribe_folder(input_folder: str, output_folder) -> None:
+    input_folder_path = Path(input_folder)
+    output_folder_path = Path(output_folder)
+
+    for wav_file in input_folder_path.glob("*.wav"):
+        transcribe(wav_file, output_folder_path)
+
+
+def transcribe(input_file: Path, output_folder: Path) -> None:
+    output_path = output_folder / f"{input_file.stem}.json"
+    model = "./whisper.cpp/models/ggml-medium.bin"
+
+    subprocess.run(
+        f"./whisper.cpp/main -f {input_file} -m {model} -oj -of {output_path}",
+        shell=True,
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+
+    input_file.unlink()
+
 def convert_wav(input_file, output_file):
     try:
         print(f"Converting {input_file.stem}...")
@@ -21,7 +44,6 @@ def convert_wav(input_file, output_file):
         subprocess.run(ffmpeg_command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print(f"Conversion of {input_file.stem} completed.")
 
-        # Delete the original file after successful conversion
         input_file.unlink()
         print(f"Deleted original file: {input_file}")
     except subprocess.CalledProcessError as e:
@@ -126,3 +148,6 @@ while True:
         input_folder = './data'
         output_folder = './converted'
         convert_all_wav_files(input_folder, output_folder)
+        input_folder = './converted'
+        output_folder = './transcriptions'
+        transcribe_folder(input_folder, output_folder)
