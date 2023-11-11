@@ -14,15 +14,41 @@ AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
 AWS_DEFAULT_REGION = os.environ.get("AWS_DEFAULT_REGION")
 SQS_QUEUE_URL = os.environ.get("SQS_QUEUE_URL")
 INPUT_S3_BUCKET_NAME = os.environ.get("INPUT_S3_BUCKET_NAME")
+OUTPUT_S3_BUCKET_NAME = os.environ.get("OUTPUT_S3_BUCKET_NAME")
 RAW_FOLDER = os.environ.get("RAW_FOLDER", "./data")
 CONVERSION_OUTPUT_FOLDER = os.environ.get("CONVERSION_OUTPUT_FOLDER", "./converted")
 TRANSCRIPTION_OUTPUT_FOLDER = os.environ.get("TRANSCRIPTION_OUTPUT_FOLDER", "./transcriptions")
 
-session = boto3.Session(
-    aws_access_key_id=AWS_ACCESS_KEY_ID,
-    aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
-    region_name=AWS_DEFAULT_REGION
-)
+
+def upload_file_to_s3(file_path, bucket_name, s3_object_key):
+    session = boto3.Session(
+        aws_access_key_id=AWS_ACCESS_KEY_ID,
+        aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
+        region_name=AWS_DEFAULT_REGION
+    )
+    s3 = session.client('s3')
+    
+    with open(file_path, "rb") as f:
+        s3.upload_fileobj(f, bucket_name, s3_object_key)
+    
+    os.remove(file_path)
+
+
+def upload_folder_to_s3(folder_path, bucket_name, s3_prefix=''):
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+
+        for root, dirs, files in os.walk(folder_path):
+            for file_name in files:
+                if file_name.endswith('.json'):
+                    local_file_path = os.path.join(root, file_name)
+                    s3_object_key = os.path.join(s3_prefix, file_name)
+                    
+                    future = executor.submit(upload_file_to_s3, local_file_path, bucket_name, s3_object_key)
+                    futures.append(future)
+
+        concurrent.futures.wait(futures)
+        
 
 def transcribe_folder(input_folder: str, output_folder) -> None:
     input_folder_path = Path(input_folder)
@@ -161,3 +187,4 @@ while True:
     output_folder = TRANSCRIPTION_OUTPUT_FOLDER
     transcribe_folder(input_folder, output_folder)
     
+    upload_folder_to_s3(TRANSCRIPTION_OUTPUT_FOLDER, OUTPUT_S3_BUCKET_NAME)
