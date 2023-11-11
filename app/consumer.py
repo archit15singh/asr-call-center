@@ -13,7 +13,7 @@ def transcribe_folder(input_folder: str, output_folder) -> None:
     for wav_file in input_folder_path.glob("*.wav"):
         transcribe(wav_file, output_folder_path)
     else:
-        print("no wav files to transcribe")
+        print("completed transcibe")
 
 
 def transcribe(input_file: Path, output_folder: Path) -> None:
@@ -62,7 +62,7 @@ def convert_all_wav_files(input_folder, output_folder):
     wav_files = list(input_folder_path.glob("*.mp3"))
 
     if not wav_files:
-        print("No WAV files found in the input folder.")
+        print("completed conversion")
         return
 
     start_time = time.time()
