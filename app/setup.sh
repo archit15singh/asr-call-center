@@ -15,5 +15,5 @@ cd whisper.cpp
 bash ./models/download-ggml-model.sh medium.en
 bash ./models/generate-coreml-model.sh medium.en
 make clean
-WHISPER_COREML=1
+export WHISPER_COREML=1
 make -j
